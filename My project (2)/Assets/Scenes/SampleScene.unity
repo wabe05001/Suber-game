@@ -159,7 +159,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -244,9 +244,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e18882fc6efa1341ab35c217f238663, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _width: 16
+  _width: 17
   _height: 9
-  _tilePrefab: {fileID: 2128651131061032758, guid: 01682d222be62eb4da965d1b4f723146, type: 3}
+  _tilePrefab: {fileID: 8122766610441990507, guid: 01682d222be62eb4da965d1b4f723146, type: 3}
+  _cam: {fileID: 519420032}
 --- !u!4 &1042638173
 Transform:
   m_ObjectHideFlags: 0
