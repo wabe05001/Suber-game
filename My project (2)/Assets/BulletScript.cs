@@ -10,7 +10,9 @@ public class BulletScript : MonoBehaviour
     private Rigidbody2D rb;
     public float force;
 
-    // Start is called before the first frame update
+   // public int damage = 20;
+
+    
     void Start()
     {
         mainCam = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<Camera>();
@@ -28,4 +30,14 @@ public class BulletScript : MonoBehaviour
     {
         
     }
+
+    //void OnTriggerEnter2D (Collider2D hitInfo)
+   // {
+     //   AiChase enemy = hitInfo.GetComponent<AiChase>();
+      //  if(enemy != null)
+      //  {
+      //      enemy.TakeDamage(damage);
+      //  }
+       // Destroy(gameObject);
+    //}
 }

@@ -8,7 +8,24 @@ public class AiChase : MonoBehaviour
     public GameObject player;
     public float speed;
     private float distance;
-    // Start is called before the first frame update
+
+    //public int health = 100;
+
+  //  public void TakeDamage(int damage)
+    //{
+       // health -= damage;
+       // if(health <= 0)
+       // {
+       //     Die();
+      //  }
+  //  }
+
+   // void Die ()
+   // {
+        
+   //     Destroy(gameObject);
+  //  }
+  
     void Start()
     {
         
@@ -22,6 +39,12 @@ public class AiChase : MonoBehaviour
 
         var v = Vector2.MoveTowards(this.transform.position, player.transform.position, speed * Time.deltaTime);
 
-        transform.position.x = new Vector3(v.x,v.y,transform.position.z);
+        transform.position = new Vector3(v.x,v.y,transform.position.z);
+
+        
     }
+
+    
+        
+    
 }
