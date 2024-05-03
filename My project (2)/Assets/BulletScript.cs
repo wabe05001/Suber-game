@@ -10,8 +10,9 @@ public class BulletScript : MonoBehaviour
     private Rigidbody2D rb;
     public float force;
 
-   // public int damage = 20;
-
+   
+    
+    
     
     void Start()
     {
@@ -25,19 +26,10 @@ public class BulletScript : MonoBehaviour
         transform.rotation = Quaternion.Euler(0,0, rot + 90);
     }
 
-    // Update is called once per frame
+    
     void Update()
     {
         
     }
 
-    //void OnTriggerEnter2D (Collider2D hitInfo)
-   // {
-     //   AiChase enemy = hitInfo.GetComponent<AiChase>();
-      //  if(enemy != null)
-      //  {
-      //      enemy.TakeDamage(damage);
-      //  }
-       // Destroy(gameObject);
-    //}
 }
